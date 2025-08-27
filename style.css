@@ -1,13 +1,13 @@
-*
-{
+* {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
-body
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+/*Corpo do documento*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: beige;
     color: #333;
     line-height: 1.5;
@@ -15,18 +15,15 @@ body
 
 /* Cabeçalho */
 
-header
-{
-    background: rgb(58, 58, 58);
+header {
+    background: rgb(0, 0, 0);
     color: beige;
     text-align: center;
-    pad: 20px;
     padding: 20px;
-    
+
 }
 
-.profile-photo
-{
+.profile-photo {
     background-color: white;
     width: 100px;
     height: 100px;
@@ -35,46 +32,38 @@ header
     background-position: center;
     border-radius: 50%;
     margin: 0 auto 10px;
-    
+
 }
 
-.main-title
-{
+.main-title {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.subtitle
-{
+.subtitle {
     font-size: 18px;
 }
 
-.main-nav
-{
+.main-nav {
     text-align: center;
     padding: 10px 0;
     margin-bottom: 20px;
-    background-color: gray;
-    
+    background-color: rgb(43, 43, 43);
+
+
 }
 
-.main-nav a
-{
+.main-nav a {
     font-size: 14px;
-    text-decoration: none;
+    color: rgba(243, 142, 142, 0.788);
     font-weight: bold;
     margin: 0 15px;
     transition: color 0.3s;
     transition: font-size 0.3s;
 
 }
-.main-nav a:hover
-{
-    color: rgb(111, 235, 111);
+
+.main-nav a:hover {
+    color: rgb(238, 79, 79);
     font-size: 20px;
 }
-
-
-
-
-
